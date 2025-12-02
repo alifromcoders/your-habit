@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# 🚀 Habit Ascend: Modern Habit Tracking Dashboard
 
-## Project info
+A modern habit-tracking dashboard featuring daily progress, streaks, and personalized habit categories. It displays detailed stats like best streaks, completion percentage, and daily goals. Users can log activities, track steps, monitor sleep, and manage habits through an intuitive, dark-themed interface.
 
-**URL**: https://lovable.dev/projects/2d90e712-caf2-429d-9b1b-6c8dffc1b240
+## 🌐 Live Demo
 
-## How can I edit this code?
+The application is deployed and live at: `[https://your-project-name.vercel.app](https://your-project-name.vercel.app)`
 
-There are several ways of editing your application.
+*(Note: Replace the URL above with the actual Vercel link once deployment is finalized)*
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2d90e712-caf2-429d-9b1b-6c8dffc1b240) and start prompting.
+## 🛠️ Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with a modern web development stack, which is excellent for building performance and maintainability:
 
-**Use your preferred IDE**
+* **Vite** (Next-Generation Frontend Tooling)
+* **TypeScript** (Typed JavaScript for large applications)
+* **React** (Component-based UI Library)
+* **shadcn-ui** (Reusable UI components)
+* **Tailwind CSS** (Utility-first CSS framework)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💻 Local Development Setup
 
-Follow these steps:
+This guide assumes you have **Git** and either **Node.js/npm** or **Bun** installed.
+
+Follow these steps to get the project running locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository using your project's Git URL.
+git clone [https://github.com/alifromcoders/your-habit.git](https://github.com/alifromcoders/your-habit.git)
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd your-habit
 
 # Step 3: Install the necessary dependencies.
-npm i
+# IMPORTANT: Since your project uses a bun.lock file, we recommend Bun.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# If using Bun:
+bun install
+
+# OR, if using npm:
+npm install
+
+# Step 4: Start the development server.
+# If using Bun:
+bun run dev
+
+# OR, if using npm:
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2d90e712-caf2-429d-9b1b-6c8dffc1b240) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
